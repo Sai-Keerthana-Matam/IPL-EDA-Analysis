@@ -1,0 +1,13 @@
+IPL EDA Insights
+
+1. Mumbai Indians are the most successful IPL team with 144 wins.
+
+2. Chennai Super Kings are the second most successful team with 138 wins.
+
+3. The majority of captains prefer fielding after winning the toss.
+
+4. Certain venues host significantly more matches than others.
+
+5. Top batsmen contribute a major share of total runs.
+
+6. Top bowlers consistently dominate wicket-taking charts.
