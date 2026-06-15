@@ -1,13 +1,21 @@
 import streamlit as st
 import pandas as pd
+import os
+
 
 # Page title
 st.title("🏏 IPL Data Analysis Dashboard")
 
 # Load data
-matches = pd.read_csv("../data/matches.csv")
-deliveries = pd.read_csv("../data/deliveries.csv")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+matches = pd.read_csv(
+    os.path.join(BASE_DIR, "data", "matches.csv")
+)
+
+deliveries = pd.read_csv(
+    os.path.join(BASE_DIR, "data", "deliveries.csv")
+)
 # Dataset preview
 st.header("Dataset Preview")
 
