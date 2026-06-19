@@ -73,7 +73,7 @@ streamlit run dashboard/app.py
 
 ## 📸 Dashboard Preview
 
-(Add dashboard screenshot here)
+
 
 ## 👩‍💻 Author
 
